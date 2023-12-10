@@ -1,0 +1,52 @@
+[
+    {
+      "id": 1,
+      "title": "Web Design",
+      "description": "Create captivating user interfaces with 'Elegant Web Design.' This category encompasses the art of balancing aesthetics and functionality, employing modern design principles, CSS frameworks,",
+      "imageUrl": "https://cdn-icons-png.flaticon.com/128/551/551159.png?uid=R116477275&ga=GA1.1.1339526423.1701975357&semt=ais"
+    },
+    {
+      "id": 2,
+      "title": "React Development",
+      "description": "Achieve mastery in 'React Development' and revolutionize web applications. Dive deep into React.js, harnessing the power of component-based architecture, state management, and the virtual DOM.",
+      "imageUrl": "https://cdn-icons-png.flaticon.com/128/6614/6614439.png?uid=R116477275&ga=GA1.1.1339526423.1701975357&semt=ais"
+    },
+    {
+      "id": 3,
+      "title": "Full-Stack Web Development",
+      "description": "Embark on a comprehensive journey in 'Web Development,' covering both client and server sides. Integrate cutting-edge frontend technologies, backend frameworks, and master the art of RESTful API design. ",
+      "imageUrl": "https://cdn-icons-png.flaticon.com/128/8318/8318929.png?uid=R116477275&ga=GA1.1.1339526423.1701975357&semt=ais"
+    },
+    {
+      "id": 4,
+      "category": "JavaScript",
+      "title": "JavaScript Wizardry",
+      "description": "Unleash the magic of 'JavaScript Wizardry.' Dive into the depths of JavaScript, mastering ES6+ features, asynchronous programming  and client-side scripting. Build interactive and responsive websites powerful scripting languages",
+      "imageUrl": "https://cdn-icons-png.flaticon.com/128/10356/10356532.png?uid=R116477275&ga=GA1.1.1339526423.1701975357&semt=ais"
+    },
+    {
+      "id": 5,
+      "title": "My Digital Canvas",
+      "description": "Transform your skills into a masterpiece with 'My Digital Canvas.' This category is dedicated to creating a personalized 'Personal Portfolio' that seamlessly blends creativity and professionalism.",
+      "imageUrl": "https://cdn-icons-png.flaticon.com/128/7971/7971076.png?uid=R116477275&ga=GA1.1.1339526423.1701975357&semt=ais"
+    },
+    {
+      "id": 6,
+      "title": "REST API",
+      "description": "Architect 'RESTful Wonders' with expertise in designing, implementing, and optimizing RESTful APIs. Facilitate seamless communication between frontend and backend components, ensuring scalability",
+      "imageUrl": "https://cdn-icons-png.flaticon.com/128/8521/8521410.png?uid=R116477275&ga=GA1.1.1339526423.1701975357&semt=ais"
+    },
+    {
+      "id": 7,
+      "title": "Firebase Authentication",
+      "description": "Ensure robust security with 'Secure Firebase Authentication.' Implement advanced authentication and authorization features using Firebase, including OAuth and multi-factor authentication.",
+      "imageUrl": "https://cdn-icons-png.flaticon.com/128/3500/3500859.png?uid=R116477275&ga=GA1.1.1339526423.1701975357&semt=ais"
+    },
+    {
+      "id": 8,
+      "title": "MongoDB Database",
+      "description": "Master 'MongoDB Mastery' for proficient database design and management. Embrace NoSQL principles to create scalable, flexible, and high-performance data storage solutions for web applications.",
+      "imageUrl": "https://cdn-icons-png.flaticon.com/128/12643/12643807.png?uid=R116477275&ga=GA1.1.1339526423.1701975357&semt=ais"
+    }
+  ]
+  
