@@ -25,7 +25,7 @@ const Navber = () => {
     </>
   );
   return (
-    <div className="border-b border-gray-600/60 bg-[#04050D]/60 shadow">
+    <div className="border-b border-gray-600/60 bg-[#04050D]/60 shadow sticky top-0 left-0 z-30">
       <div className="flex items-center justify-between lg:py-3 text-white md:w-11/12 mx-auto">
         <div className="py-2  flex justify-between items-center w-[92%] mx-auto flex-row-reverse lg:flex-row">
           <div className="block lg:hidden ">
