@@ -1,0 +1,26 @@
+.vertical-timeline-element-icon{
+    width: 60px !important;
+    padding: 0 !important;
+}
+.images{
+    width: 100% !important;
+    height: 100%;
+    border-radius: 50%;
+}
+.vertical-timeline-element-content{
+    color: black !important;
+    background-color: white !important;
+}
+.vertical-timeline-element-title{
+    font-size: 30px !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+    font-weight: 600 !important;
+}
+.vertical-timeline-element-subtitle{
+    font-size: 20px !important;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif !important;
+    font-weight: 400 !important;
+}
+.vertical-timeline-element-content-end{
+    background-color: none !important;
+}

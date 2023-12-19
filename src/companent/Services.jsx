@@ -7,9 +7,9 @@ const Services = () => {
     axios.get("/services.json").then((res) => setServices(res.data));
   }, []);
   return (
-    <div className="w-11/12 mx-auto pb-5">
+    <div className="w-11/12 mx-auto pb-5 mt-5">
       
-      <h1 className="text-center mb-10 text-4xl uppercase font-medium"> <span className="border-b-2 rounded p-2  border-[#E17F13] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#E17F13] duration-300">Services</span> </h1> 
+      <h1 className="text-center mb-10 text-4xl font-medium"> <span className="border-b-2 border-l-2 border-r-2 rounded px-6 py-2  border-[#E17F13] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#E17F13] duration-300  tracking-[5px]">Services</span> </h1> 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 ">
         {
             services?.map(service =><div key={service.id} className="card">

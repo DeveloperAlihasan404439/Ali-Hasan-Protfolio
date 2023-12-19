@@ -34,15 +34,15 @@ const Contact = () => {
   };
 
   return (
-    <>
-      <h1 className="text-center mt-14  text-4xl uppercase font-medium">
+    <div className="w-11/12 mx-auto">
+      <h1 className="text-center mt-14  text-4xl font-medium">
         {" "}
-        <span className="border-b-2 rounded p-2  border-[#E17F13] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#E17F13] duration-300">
+        <span className="border-b-2 border-l-2 border-r-2 rounded px-6 py-2  border-[#E17F13] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#E17F13] duration-300  tracking-[5px]">
           Contact Us
         </span>{" "}
       </h1>
-      <div className="md:w-10/12 lg:w-8/12 mx-auto flex justify-between items-center gap-8 py-16 rounded-lg">
-        <div className="md:w-[50%] ">
+      <div className="md:w-10/12 lg:w-9/12 mx-auto md:flex justify-between items-center gap-8 py-16 rounded-lg">
+        <div className="md:w-[50%] mb-5 md:mb-0">
           <img
             src="https://img.freepik.com/free-vector/flat-customer-support-illustration_23-2148899114.jpg?size=626&ext=jpg&uid=R116477275&ga=GA1.1.1339526423.1701975357&semt=ais"
             alt=""
@@ -74,8 +74,8 @@ const Contact = () => {
             <textarea
               name="message"
               id=""
-              cols="15"
-              rows="5"
+              cols="10"
+              rows="2"
               className="input input-alt h-full hover:border"
               placeholder="Enter Your Message"
             ></textarea>
@@ -85,7 +85,7 @@ const Contact = () => {
           
         </form>
       </div>
-    </>
+    </div>
   );
 };
 

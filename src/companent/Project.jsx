@@ -4,12 +4,13 @@ import careerpulse from "../assets/projact/carer pulse.png";
 import eventmenagement from "../assets/projact/event-menagement.png";
 import brand_shop from "../assets/projact/brand-shop.png";
 import commint from "../assets/projact/commint-calcaral.png";
+import donatoin from "../assets/projact/donation.png";
 const Project = () => {
   return (
-    <div className="w-11/12 mx-auto">
-      <h1 className="text-center mb-10 text-4xl uppercase font-medium">
+    <div className="w-11/12 mx-auto py-5 md:py-10">
+      <h1 className="text-center mb-10 text-4xl  font-medium">
         {" "}
-        <span className="border-b-2 rounded p-2  border-[#E17F13] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#E17F13] duration-300">
+        <span className="border-b-2 border-l-2 border-r-2 rounded px-6 py-2  border-[#E17F13] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#E17F13] duration-300  tracking-[5px]">
           My Projact
         </span>{" "}
       </h1>
@@ -106,18 +107,18 @@ const Project = () => {
         </div>
         <div className="max-w-xl rounded-md shadow-md border border-[#E17F13] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#644A2E] duration-300 ">
           <img
-            src={eventmenagement}
+            src={donatoin}
             alt=""
             className="-full rounded-t-md h-72 "
           />
           <div className="flex flex-col justify-between p-6 space-y-8">
             <div className="space-y-2">
               <h2 className="text-3xl font-semibold tracki">
-                Event Menagement
+                Donation
               </h2>
               <div className="flex justify-between items-center text-xl font-medium gap-5">
-                <Link to ="https://event-menagement-surge.surge.sh/"> <button className="border-b-2 rounded p-2  border-[#E17F13] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#E17F13] duration-300">Live Link</button> </Link>
-                <Link to ="https://github.com/DeveloperAlihasan404439/event-management"> <button className="border-2 rounded p-2  border-[#E17F13] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#E17F13] duration-300">Github Link</button> </Link>
+                <Link to ="https://donation-projact.surge.sh"> <button className="border-b-2 rounded p-2  border-[#E17F13] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#E17F13] duration-300">Live Link</button> </Link>
+                <Link to ="https://github.com/DeveloperAlihasan404439/donation-projact"> <button className="border-2 rounded p-2  border-[#E17F13] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#E17F13] duration-300">Github Link</button> </Link>
               </div>
             </div>
           </div>
