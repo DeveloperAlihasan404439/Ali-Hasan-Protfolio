@@ -8,11 +8,8 @@ import { Link, animateScroll as scroll } from "react-scroll";
 import { BsFillTelephoneOutboundFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import profile from "../assets/ali2.jpg";
-import AuthContaxt from "../Auth/AuthContaxt";
 const Navber = () => {
   const [show, setShow] = useState(false);
-  const {user, loginUser} = AuthContaxt()
-  console.log(loginUser);
   useEffect(() => {
     const hendelScroll = () => {
       const scrollTop = window.pageYOffset;
