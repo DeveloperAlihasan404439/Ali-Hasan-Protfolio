@@ -3,7 +3,7 @@ import about from '../assets/202312173236.png'
 const About = () => {
   return (
     <section className="py-6  mt-5">
-        <h1 className="text-center mb-10 text-4xl font-medium"> <span className="border-b-2 border-l-2 border-r-2 rounded px-6 py-2  border-[#E17F13] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#E17F13] duration-300  tracking-[5px]">About Me</span> </h1>
+        <h1 className="text-center mb-10 text-4xl font-medium"> <span className="border-b-2 rounded px-6 py-2  border-[#E17F13] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#E17F13] duration-300  tracking-[5px]">About Me</span> </h1>
       <div className="md:w-10/12 md:grid grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
 
         <div className="py-6 md:py-0 md:px-2 text-center md:text-left">
@@ -17,8 +17,8 @@ const About = () => {
             <p className="text-lg font-medium">Age : 21 year</p>
             <p className="text-lg font-medium">From : Rangpur, Bangladesh</p>
             <div className="mt-10 flex flex-col md:flex-row gap-5">
-              <Link to='https://www.linkedin.com/in/ali-hasan-409845256' className="text-center md:text-left mb-10 text-xl font-medium"> <span className="border-b-2 border-l-2 border-r-2 rounded px-7 py-2  border-[#E17F13] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#E17F13] tracking-[5px] duration-300" title="ali-hasan-409845256">Linkedin</span></Link>
-              <Link to='https://github.com/DeveloperAlihasan404439' className="text-center md:text-left mb-10 text-xl font-medium"> <span className="border-b-2 border-l-2 border-r-2 rounded px-7 py-2  border-[#E17F13] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#E17F13] tracking-[5px] duration-300" title="DeveloperAlihasan404439">Github</span></Link>
+              <Link to='https://www.linkedin.com/in/ali-hasan-409845256' className="text-center md:text-left mb-10 text-xl font-medium"> <span className="border-b-2 rounded px-7 py-2  border-[#E17F13] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#E17F13] tracking-[5px] duration-300" title="ali-hasan-409845256">Linkedin</span></Link>
+              <Link to='https://github.com/DeveloperAlihasan404439' className="text-center md:text-left mb-10 text-xl font-medium"> <span className="border-b-2 rounded px-7 py-2  border-[#E17F13] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#E17F13] tracking-[5px] duration-300" title="DeveloperAlihasan404439">Github</span></Link>
             </div>
         </div>
       </div>
