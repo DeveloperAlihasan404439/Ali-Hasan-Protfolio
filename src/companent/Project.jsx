@@ -5,6 +5,10 @@ import eventmenagement from "../assets/projact/event-menagement.png";
 import brand_shop from "../assets/projact/brand-shop.png";
 import commint from "../assets/projact/commint-calcaral.png";
 import donatoin from "../assets/projact/donation.png";
+import mobile_ship from "../assets/projact/mobile-ship.png";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init();
 const Project = () => {
   return (
     <div className="w-11/12 mx-auto py-5 md:py-10">
@@ -15,7 +19,8 @@ const Project = () => {
         </span>{" "}
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-        <div className="max-w-xl rounded-md shadow-md border border-[#E17F13] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#644A2E] duration-300 ">
+        <div  data-aos="flip-left"
+     data-aos-easing="ease-out-cubic" data-aos-duration="2000" className="max-w-xl rounded-md shadow-md border border-[#E17F13] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#644A2E] duration-300 ">
           <img
             src={bodypulse}
             alt=""
@@ -33,7 +38,8 @@ const Project = () => {
             </div>
           </div>
         </div>
-        <div className="max-w-xl rounded-md shadow-md border border-[#E17F13] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#644A2E] duration-300 ">
+        <div data-aos="zoom-in"
+     data-aos-easing="ease-out-cubic" data-aos-duration="2000" className="max-w-xl rounded-md shadow-md border border-[#E17F13] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#644A2E] duration-300 ">
           <img
             src={careerpulse}
             alt=""
@@ -51,7 +57,8 @@ const Project = () => {
             </div>
           </div>
         </div>
-        <div className="max-w-xl rounded-md shadow-md border border-[#E17F13] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#644A2E] duration-300 ">
+        <div  data-aos="flip-left"
+     data-aos-easing="ease-out-cubic" data-aos-duration="2000" className="max-w-xl rounded-md shadow-md border border-[#E17F13] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#644A2E] duration-300 ">
           <img
             src={eventmenagement}
             alt=""
@@ -69,7 +76,8 @@ const Project = () => {
             </div>
           </div>
         </div>
-        <div className="max-w-xl rounded-md shadow-md border border-[#E17F13] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#644A2E] duration-300 ">
+        <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic" data-aos-duration="2000" className="max-w-xl rounded-md shadow-md border border-[#E17F13] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#644A2E] duration-300 ">
           <img
             src={brand_shop}
             alt=""
@@ -87,7 +95,8 @@ const Project = () => {
             </div>
           </div>
         </div>
-        <div className="max-w-xl rounded-md shadow-md border border-[#E17F13] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#644A2E] duration-300 ">
+        <div data-aos="zoom-in"
+     data-aos-easing="ease-out-cubic" data-aos-duration="2000" className="max-w-xl rounded-md shadow-md border border-[#E17F13] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#644A2E] duration-300 ">
           <img
             src={commint}
             alt=""
@@ -105,16 +114,36 @@ const Project = () => {
             </div>
           </div>
         </div>
-        <div className="max-w-xl rounded-md shadow-md border border-[#E17F13] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#644A2E] duration-300 ">
+        <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic" data-aos-duration="2000"className="max-w-xl rounded-md shadow-md border border-[#E17F13] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#644A2E] duration-300 ">
           <img
             src={donatoin}
             alt=""
-            className="-full rounded-t-md h-72 "
+            className="w-full rounded-t-md h-72 "
           />
           <div className="flex flex-col justify-between p-6 space-y-8">
             <div className="space-y-2">
               <h2 className="text-3xl font-semibold tracki">
                 Donation
+              </h2>
+              <div className="flex justify-between items-center text-xl font-medium gap-5">
+                <Link to ="https://build-with-innovation-private-limited-task.surge.sh"> <button className="border-b-2 rounded p-2  border-[#E17F13] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#E17F13] duration-300">Live Link</button> </Link>
+                <Link to ="https://github.com/DeveloperAlihasan404439/Mobile-Shop-internship-task"> <button className="border-2 rounded p-2  border-[#E17F13] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#E17F13] duration-300">Github Link</button> </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic" data-aos-duration="2000"className="max-w-xl rounded-md shadow-md border border-[#E17F13] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#644A2E] duration-300 ">
+          <img
+            src={mobile_ship}
+            alt=""
+            className="w-full rounded-t-md h-72 "
+          />
+          <div className="flex flex-col justify-between p-6 space-y-8">
+            <div className="space-y-2">
+              <h2 className="text-3xl font-semibold tracki">
+              Mobile Ship
               </h2>
               <div className="flex justify-between items-center text-xl font-medium gap-5">
                 <Link to ="https://donation-projact.surge.sh"> <button className="border-b-2 rounded p-2  border-[#E17F13] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#E17F13] duration-300">Live Link</button> </Link>
