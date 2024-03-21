@@ -1,4 +1,4 @@
-![Logo](https://raw.githubusercontent.com/DeveloperAlihasan404439/Team-client-project/development/src/assets/BannerL%26Logo/Logo%20icon.png)
+![Logo](https://raw.githubusercontent.com/DeveloperAlihasan404439/Ali-Hasan-Protfolio/main/src/assets/ali-hasan-logo.png)
 
 # Personal Portfolio Website
 
