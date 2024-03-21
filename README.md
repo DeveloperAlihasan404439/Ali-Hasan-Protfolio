@@ -27,7 +27,7 @@ Here, you'll find a breakdown of my technical skills and proficiencies. From pro
 ## Demo 🔗 Link
 
 | Link to demo                             | Link to Github Cliend Site                                                    | 
-| ---------------------------------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| ---------------------------------------- | ----------------------------------------------------------------------------- |
 | [demo](https://ali-hasan-portfolio.surge.sh) | [Cliend Site](https://github.com/DeveloperAlihasan404439/Ali-Hasan-Protfolio) |
 This is a React project with [Create React App](https://create-react-app.dev/).
 
