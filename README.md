@@ -15,7 +15,8 @@ Here, you'll find a breakdown of my technical skills and proficiencies. From pro
 
 ## Technologies Utilized
 
-| Frontend                                                                                                            |
+| Frontend |
+| -------- |
 | React.js, Daisy UI, Tailwind CSS, Leaflet.js, React Hook Form, Framer Motion, Swiper.js, and other React libraries. | 
 ## Website Overview
 
